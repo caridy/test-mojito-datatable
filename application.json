@@ -1,0 +1,39 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": 4010,
+        "yui": {
+            "showConsoleInClient": false,
+            "dependencyCalculations": "precomputed+ondemand",
+            "config": {
+                "fetchCSS": false,
+                "combine": false,
+                "throwFail": true,
+                "debug": true,
+                "filter": "min",
+                "gallery": "gallery-2012.09.26-20-36",
+                "base": "http://yui.yahooapis.com/3.7.3/build/",
+                "comboBase": "http://yui.yahooapis.com/combo?",
+                "root": "3.7.3/build/"
+            }
+        },    
+        "specs": {
+            "frame" : {
+                "type" : "HTMLFrameMojit",
+                "config": {
+                    "title": "HTMLFrameMojit Example",
+                    "deploy": true,
+                    "child": {
+                        "type" : "Home"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    }
+]

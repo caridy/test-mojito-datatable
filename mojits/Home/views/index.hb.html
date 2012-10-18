@@ -1,0 +1,31 @@
+<div id="{{mojit_view_id}}">
+    <dl>
+        <dt>status</dt>
+        <dd id="dd_status">{{status}}</dd>
+        <dt>data</dt>
+        <dd id="dd_data">
+            <b>some:</b> {{#data}}{{some}}{{/data}}
+        </dd>
+    </dl>
+</div>
+<div id="example1"></div>
+<div id="example2"></div>
+
+<script>
+/*
+YUI().use('node-base', 'datatable', function(Y) {
+    // we need yui3-skin-sam for the datatable
+    Y.one('body').addClass('yui3-skin-sam');
+    var data = [
+        { id: "ga-3475", name: "gadget", price: "$6.99", cost: "$5.99" },
+        { id: "sp-9980", name: "sprocket", price: "$3.75", cost: "$3.25" },
+        { id: "wi-0650", name: "widget", price: "$4.25", cost: "$3.75" }
+    ];
+    var table = new Y.DataTable({
+        columns: ["id", "name", "price"],
+        data: data
+    });
+    table.render("#example1");
+});
+*/
+</script>

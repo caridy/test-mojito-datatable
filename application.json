@@ -6,17 +6,14 @@
             "showConsoleInClient": false,
             "dependencyCalculations": "precomputed+ondemand",
             "config": {
-                "fetchCSS": false,
+                "fetchCSS": true,
                 "combine": false,
                 "throwFail": true,
                 "debug": true,
                 "filter": "min",
-                "gallery": "gallery-2012.09.26-20-36",
-                "base": "http://yui.yahooapis.com/3.7.3/build/",
-                "comboBase": "http://yui.yahooapis.com/combo?",
-                "root": "3.7.3/build/"
+                "gallery": "gallery-2012.09.26-20-36"
             }
-        },    
+        },
         "specs": {
             "frame" : {
                 "type" : "HTMLFrameMojit",
